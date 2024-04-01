@@ -7,7 +7,6 @@
     height: 5vmin;
     width: 100%;
     padding: 6vmin 8vmin;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,9 +22,19 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 8vmin;
+    gap: 5vmin;
     font-weight: 550;
     font-size: 2.5vmin;
+}
+
+li{
+    padding: 1.5vmin 3vmin;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
 }
 
 .navBar a{
@@ -35,3 +44,73 @@ ul{
     color: white;
     font-size: 2.5vmin;
 }
+
+.navBar a:hover{
+    color: white;
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    padding: 6vmin 16vmin;
+}
+
+#container-1 h1{
+    font-size: 16vmin;
+    letter-spacing: -0.1vmin;
+    line-height: 15vmin;
+}
+
+#container-1 p#description{
+    margin: 3vmin 0 0 0;
+    color: rgb(84, 81, 81);
+    font-size: 2.5vmin;
+    width: 60vmin;
+}
+
+#box-1{
+    margin: 3vmin 0;
+    display: flex;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.btn{
+    /* background-color: red; */
+    text-decoration: none;
+    padding: 1.5vmin 3vmin;
+    font-size: 2.5vmin;
+}
+
+#box-1 a:nth-child(1){
+    background-color: red;
+    color: white;
+}
+
+#box-1 a:nth-child(1):hover{
+    background-color: black;
+}
+
+#box-1 a:nth-child(2){
+    color: grey;
+    border: 2px solid black;
+}
+
+#box-1 a:nth-child(2):hover{
+    background-color: black;
+    color: white;
+}
+
+#container-1 p{
+    color: grey;
+    font-size: 2.5vmin;
+    font-weight: lighter;
+}
+
+#box-2{
+    display: flex;
+    align-items: center;
+    gap: 3vmin;
+    margin: 2vmin 0 0 0;
+}
+
