@@ -1,0 +1,51 @@
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navBar{
+    height: 5vmin;
+    width: 100%;
+    padding: 6vmin 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar img{
+    height: 6.5vmin;
+    width: 11.5vmin;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vmin;
+    font-weight: 550;
+    font-size: 2.5vmin;
+}
+
+li{
+    padding: 1.5vmin 3vmin;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.navBar a{
+    background-color: red;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vmin;
+}
+
+.navBar a:hover{
+    color: white;
+    background-color: black;
+}
